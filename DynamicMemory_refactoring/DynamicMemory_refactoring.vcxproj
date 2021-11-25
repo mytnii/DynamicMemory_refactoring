@@ -139,7 +139,58 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="beginningArray.cpp" />
+    <ClCompile Include="completionArray.cpp" />
+    <ClCompile Include="completionMatrix.cpp" />
+    <ClCompile Include="deleteMatrix.cpp" />
     <ClCompile Include="DynamicMemory_refactoring.cpp" />
+    <ClCompile Include="endArray.cpp" />
+    <ClCompile Include="eraseArray.cpp" />
+    <ClCompile Include="eraseColMatrix.cpp" />
+    <ClCompile Include="eraseRowMatrix.cpp" />
+    <ClCompile Include="insertArray.cpp" />
+    <ClCompile Include="insertColMatrix.cpp" />
+    <ClCompile Include="insertRowMatrix.cpp" />
+    <ClCompile Include="popBackArray.cpp" />
+    <ClCompile Include="popColBackMatrix.cpp" />
+    <ClCompile Include="popColFrontMatrix.cpp" />
+    <ClCompile Include="popFrontArray.cpp" />
+    <ClCompile Include="popRowBackMatrix.cpp" />
+    <ClCompile Include="popRowFrontMatrix.cpp" />
+    <ClCompile Include="printArray.cpp" />
+    <ClCompile Include="allocateMatrix.cpp" />
+    <ClCompile Include="printMatrix.cpp" />
+    <ClCompile Include="pushColBackMatrix.cpp" />
+    <ClCompile Include="pushColFrontMatrix.cpp" />
+    <ClCompile Include="pushRowBackMatrix.cpp" />
+    <ClCompile Include="pushRowFrontMatrix.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="allocateMatrix.h" />
+    <ClInclude Include="beginningArray.h" />
+    <ClInclude Include="completionArray.h" />
+    <ClInclude Include="completionMatrix.h" />
+    <ClInclude Include="deleteMatrix.h" />
+    <ClInclude Include="endArray.h" />
+    <ClInclude Include="eraseArray.h" />
+    <ClInclude Include="eraseColMatrix.h" />
+    <ClInclude Include="eraseRowMatrix.h" />
+    <ClInclude Include="insertArray.h" />
+    <ClInclude Include="insertColMatrix.h" />
+    <ClInclude Include="insertRowMatrix.h" />
+    <ClInclude Include="popBackArray.h" />
+    <ClInclude Include="popColBackMatrix.h" />
+    <ClInclude Include="popColFrontMatrix.h" />
+    <ClInclude Include="popFrontArray.h" />
+    <ClInclude Include="popRowBackMatrix.h" />
+    <ClInclude Include="popRowFrontMatrix.h" />
+    <ClInclude Include="PrintArray.h" />
+    <ClInclude Include="printMatrix.h" />
+    <ClInclude Include="pushColBackMatrix.h" />
+    <ClInclude Include="pushColFrontMatrix.h" />
+    <ClInclude Include="pushRowBackMatrix.h" />
+    <ClInclude Include="pushRowFrontMatrix.h" />
+    <ClInclude Include="Stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
